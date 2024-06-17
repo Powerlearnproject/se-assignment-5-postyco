@@ -1,0 +1,142 @@
+### Installation of VS Code on Windows 11
+
+1. **Download VS Code:**
+   - Visit the official [Visual Studio Code website](https://code.visualstudio.com/).
+   - Click on the "Download for Windows" button. This should automatically detect your OS and offer the appropriate installer.
+
+2. **Run the Installer:**
+   - Locate the downloaded installer file (`VSCodeUserSetup-x64-1.x.x.exe`) in your Downloads folder and double-click it to start the installation process.
+   - Follow the on-screen instructions. You can choose to add VS Code to your PATH, which is recommended for command-line integration.
+
+3. **Installation:**
+   - Choose the installation location and other preferences (like creating a desktop icon).
+   - Click "Install" and wait for the installation to complete.
+   - Once done, click "Finish" to launch VS Code.
+
+### First-time Setup
+
+After installing VS Code, consider the following initial configurations for an optimal coding environment:
+
+1. **Settings Sync:**
+   - If you use VS Code on multiple devices, enable Settings Sync to keep your settings consistent across all installations. You can find this option under `File > Preferences > Settings Sync`.
+
+2. **Theme:**
+   - Choose a theme that suits your preference. Go to `File > Preferences > Color Theme` and select from the list of available themes.
+
+3. **Font Size and Family:**
+   - Adjust the font size and family under `File > Preferences > Settings`. Search for "Font Size" and "Font Family" and make adjustments as needed.
+
+4. **Extensions:**
+   - Install essential extensions for your development needs. Go to the Extensions view by clicking the Extensions icon in the Activity Bar or pressing `Ctrl+Shift+X`.
+
+### User Interface Overview
+
+1. **Activity Bar:**
+   - Located on the far left, it contains icons for views like Explorer, Search, Source Control, Run and Debug, Extensions, and more. It helps in quick navigation between these views.
+
+2. **Side Bar:**
+   - Appears next to the Activity Bar, displaying the contents of the selected view (e.g., file explorer, source control status).
+
+3. **Editor Group:**
+   - The central area where you open and edit files. You can split this into multiple editor groups for side-by-side editing.
+
+4. **Status Bar:**
+   - Located at the bottom, it shows information like line number, Git branch, language mode, and error/warning counts.
+
+### Command Palette
+
+The Command Palette is a powerful tool in VS Code that provides access to various commands and features.
+
+- **Accessing Command Palette:**
+  - Press `Ctrl+Shift+P` or `F1`.
+
+- **Common Tasks:**
+  - Open a file: Type `Open File`.
+  - Install extensions: Type `Extensions: Install Extensions`.
+  - Change settings: Type `Preferences: Open Settings`.
+
+### Extensions in VS Code
+
+Extensions add functionality to VS Code, allowing users to customize their development environment.
+
+1. **Finding Extensions:**
+   - Click the Extensions icon in the Activity Bar or press `Ctrl+Shift+X`.
+
+2. **Installing Extensions:**
+   - Search for an extension, click on it, and then click the Install button.
+
+3. **Managing Extensions:**
+   - View installed extensions, disable or uninstall them from the Extensions view.
+
+4. **Essential Extensions for Web Development:**
+   - **ESLint:** Integrates ESLint JavaScript into VS Code.
+   - **Prettier:** An opinionated code formatter.
+   - **Live Server:** Launches a development local server with live reload feature.
+   - **Debugger for Chrome:** Debug your JavaScript code in the Google Chrome browser, or other targets that support the Chrome Debugging Protocol.
+
+### Integrated Terminal
+
+1. **Opening the Integrated Terminal:**
+   - Press `Ctrl+`` (backtick) or go to `View > Terminal`.
+
+2. **Using the Integrated Terminal:**
+   - You can run command-line tasks directly within VS Code without switching contexts.
+   - Create multiple terminal instances and switch between them easily.
+
+3. **Advantages:**
+   - Access to the terminal within the same window, maintaining focus and productivity.
+   - Consistent environment configuration with your editor settings.
+
+### File and Folder Management
+
+1. **Creating and Opening Files/Folders:**
+   - Use the Explorer view in the Side Bar. Right-click to create new files or folders.
+   - Open files by double-clicking or dragging and dropping into the editor.
+
+2. **Navigating Files and Directories:**
+   - Use `Ctrl+P` to quickly open files by name.
+   - Use the breadcrumb navigation at the top of the editor to navigate through directories.
+
+### Settings and Preferences
+
+1. **Customizing Settings:**
+   - Access settings through `File > Preferences > Settings` or by pressing `Ctrl+,`.
+   - Use the search bar to find specific settings.
+
+2. **Changing Themes:**
+   - Go to `File > Preferences > Color Theme`.
+
+3. **Adjusting Font Size:**
+   - Search for "Font Size" in the settings and set your preferred size.
+
+4. **Modifying Keybindings:**
+   - Go to `File > Preferences > Keyboard Shortcuts` or press `Ctrl+K Ctrl+S`.
+
+### Debugging in VS Code
+
+1. **Setting Up Debugging:**
+   - Open the Debug view from the Activity Bar or press `Ctrl+Shift+D`.
+   - Configure your debugger by creating a `launch.json` file in the `.vscode` folder of your project.
+
+2. **Starting a Debug Session:**
+   - Set breakpoints by clicking in the gutter next to the line numbers.
+   - Press `F5` to start debugging, or use the green play button in the Debug view.
+
+3. **Key Debugging Features:**
+   - Step over, step into, and step out of functions.
+   - Watch variables and view call stacks.
+   - Evaluate expressions in the debug console.
+
+### Using Source Control
+
+1. **Integrating Git:**
+   - Initialize a repository: Open the Source Control view, click on `Initialize Repository`.
+   - Clone a repository: Use `Git: Clone` from the Command Palette and enter the repository URL.
+
+2. **Making Commits:**
+   - Stage changes: Click the `+` icon next to changes in the Source Control view.
+   - Commit: Enter a commit message and click the checkmark icon.
+
+3. **Pushing Changes to GitHub:**
+   - Set up a remote repository on GitHub.
+   - Use `Push` from the Source Control view to upload your changes.
