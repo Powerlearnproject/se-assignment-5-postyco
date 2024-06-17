@@ -136,6 +136,26 @@ Extensions add functionality to VS Code, allowing users to customize their devel
 2. **Making Commits:**
    - Stage changes: Click the `+` icon next to changes in the Source Control view.
    - Commit: Enter a commit message and click the checkmark icon.
+sources:
+Visual Studio Code Official Documentation:
+
+Getting Started with Visual Studio Code
+User Interface
+Command Palette
+Extensions
+Integrated Terminal
+File and Folder Management
+Settings and Preferences
+Debugging
+Version Control with Git
+Visual Studio Code YouTube Channel:
+
+The official VS Code YouTube channel has numerous tutorials and overviews, such as:
+Introduction to Visual Studio Code
+VS Code Tips and Tricks
+Community Guides and Tutorials:
+
+Various community-created guides and blog posts offer tips and best practices. Websites like Stack Overflow, Medium, and Dev.to have many posts that help users with setup and customization of VS Code.
 
 3. **Pushing Changes to GitHub:**
    - Set up a remote repository on GitHub.
